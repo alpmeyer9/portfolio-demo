@@ -1,0 +1,67 @@
+
+body {
+    background-color: lightcyan;
+    background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    width: 100%;
+    height: 60px;
+    background-color: steelblue;
+    position: absolute;
+    top: 0;
+    padding: 5px;
+}
+
+.listItem {
+    list-style-type: none;
+    display: inline-block;
+    float: right;
+    margin-right: 16px;
+}
+
+.listItem a {
+    color: lightgray;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#brand {
+    float: left;
+}
+
+.listItem a:hover {
+    color: white;
+    font-size: 30px;
+    }
+
+header {
+    height: 70vh;
+    min-height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#imageBox {
+    height: 300px;
+    width: 300px;
+    background-image: url('./profile.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+#greetingBox {
+    color: darkslate;
+}
+
+#greetingBox h1 {
+    font-size: 40px;
+}
+
+#greetingBox {
+    font-size: 18px;
+}
